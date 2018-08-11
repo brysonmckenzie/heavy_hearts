@@ -90,8 +90,12 @@ USE_MODELTRANSLATION = False
 # MAIN DJANGO SETTINGS #
 ########################
 
+SECRET_KEY = "#t1!+a#c%_&(ke*0u(9p5)nyoci+w9$$we@zapg)bk$1(+hih7"
+NEVERCACHE_KEY = "i2#sf6gvoq741r506(-@4=$nb(m2qytk#ptkffouldw=$^tgty"
+
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
+
 ALLOWED_HOSTS = ['142.93.126.29']
 
 # Local time zone for this installation. Choices can be found here:
