@@ -425,7 +425,7 @@ def secure(new_user=env.user):
     run("apt-get upgrade -y -q")
     run("adduser --gecos '' %s" % new_user)
     run("usermod -G sudo %s" % new_user)
-    run("sed -i 's:RootLogin yes:RootLogin no:' /etc/ssh/sshd_config")
+    run("sed -i 's:RootLogin no:RootLogin no:' /etc/ssh/sshd_config")
     run("service ssh restart")
     print(green("Security steps completed. Log in to the server as '%s' from "
                 "now on." % new_user, bold=True))
