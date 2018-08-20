@@ -511,7 +511,7 @@ def create():
 
     # Set up SSL certificate
     if not env.ssl_disabled:
-        conf_path = "/etc/nginx/conf"
+        conf_path = "/etc/nginx/conf" lsblk
         if not exists(conf_path):
             sudo("mkdir %s" % conf_path)
         with cd(conf_path):

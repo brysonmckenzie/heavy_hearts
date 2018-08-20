@@ -90,8 +90,7 @@ USE_MODELTRANSLATION = False
 # MAIN DJANGO SETTINGS #
 ########################
 
-SECRET_KEY = "#t1!+a#c%_&(ke*0u(9p5)nyoci+w9$$we@zapg)bk$1(+hih7"
-NEVERCACHE_KEY = "i2#sf6gvoq741r506(-@4=$nb(m2qytk#ptkffouldw=$^tgty"
+
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
@@ -122,7 +121,7 @@ LANGUAGES = (
 # A boolean that turns on/off debug mode. When set to ``True``, stack traces
 # are displayed for error pages. Should always be set to ``False`` in
 # production. Best set to ``True`` in local_settings.py
-DEBUG = False
+DEBUG = True
 
 # Whether a user's session cookie expires when the Web browser is closed.
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
