@@ -97,6 +97,9 @@ USE_MODELTRANSLATION = False
 
 ALLOWED_HOSTS = ['142.93.113.109']
 
+SECRET_KEY = "#t1!+a#c%_&(ke*0u(9p5)nyoci+w9$$we@zapg)bk$1(+hih7"
+NEVERCACHE_KEY = "i2#sf6gvoq741r506(-@4=$nb(m2qytk#ptkffouldw=$^tgty"
+
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
