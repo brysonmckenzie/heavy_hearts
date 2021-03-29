@@ -26,7 +26,7 @@ paramiko==2.4.1
 Pillow==5.2.0
 pyasn1==0.4.4
 pycparser==2.18
-Pygments==2.2.0
+Pygments==2.7.4
 PyNaCl==1.2.1
 pytz==2018.5
 rcssmin==1.0.6
